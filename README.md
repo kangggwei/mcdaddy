@@ -8,6 +8,9 @@ Growing up, I always had trouble picking what to eat. I thought to myself "Why c
 
 McDaddy is a GUI which takes the menu of the website and chooses them based on criterias and decides what to order. lxml library is used to scrape the data using the xpath on the site. The GUI is designed using PySimpleGUI and it is simple and interactive. The design is meant to be simple and straightforward, making it intuitive for other users of the programme.
 
+### Usage:
+
+The link is now limited to UberEats UK McDonald's menu. Please insert the URL appropriate url for it to work. Here's an example link for McDonald's at Waterloo Station. (https://www.ubereats.com/london/food-delivery/mcdonalds-waterloo-station/g96iDW8lSOG0vCg8CrFANA)
 
 ### Requirements:
 ```
