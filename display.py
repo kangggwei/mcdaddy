@@ -15,7 +15,7 @@ settings_column = [
   ],
   [
     sg.OptionMenu(
-      values=["I'm Feelin' Lucky", " Meals Only", ' Vegetarian'], 
+      values=["I'm Feelin' Lucky", "Meals Only", "Vegetarian", "Breakfast"], 
       size=(30, 100), 
       key="option")
   ],
@@ -39,10 +39,9 @@ layout = [
   ]
 
 class GUI:
-  def __init__(self, menu, func):
+  def __init__(self, func):
     # Create the window
-    self.window = sg.Window("Random Order Generator", layout, alpha_channel=.8)
-    self.menu = menu
+    self.window = sg.Window("McDaddy", layout, alpha_channel=.8)
     self.process = func
     self.run()
 
