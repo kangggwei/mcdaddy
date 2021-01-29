@@ -17,4 +17,5 @@ The link is now limited to UberEats UK McDonald's menu. Please insert the URL ap
 - lxml
 - PySimpleGUI
 - requests
+- python-dotenv
 ```
