@@ -28,5 +28,5 @@ for category in range(3, 18):
   menu.append({category_name: section})
 
 # saving the menu to pickle
-with open(filename, 'wb') as f:
+with open('menu', 'wb') as f:
   pickle.dump(menu, f)
